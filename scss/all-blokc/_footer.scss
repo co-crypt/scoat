@@ -1,0 +1,44 @@
+.footer {
+   background-color: $pirple;
+   margin-top: 50px; 
+
+   h2 {
+      color: $white;
+      font-size: 40px;
+      line-height: 45px;
+      max-width: 400px;
+   }
+
+   &__texts {
+      display: flex;
+      padding-top: 30px;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   &__nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: $footer;
+      padding: 20px;
+
+      .footer__logo {
+         align-items: center;
+         display: flex;
+
+         ul {
+            display: flex;
+
+            li {
+               margin-left: 40px;
+            }
+         }
+      }
+
+      .contact {
+         img {
+            margin-left: 20px;
+         }
+      }
+   }
+}
